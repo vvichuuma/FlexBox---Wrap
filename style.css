@@ -1,0 +1,24 @@
+
+#code{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.boxy{
+    width: 15rem; 
+    height: 5rem; 
+    border: 2px solid black;
+}
+
+#appButton{
+    border: 1px solid black; 
+    padding: 1rem; 
+    font-size: 0.5rem;
+}
+
+#appButton:hover{
+    cursor: pointer;
+    background-color: black; 
+    color: white;
+}
